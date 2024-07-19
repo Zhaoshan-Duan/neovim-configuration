@@ -1,0 +1,2 @@
+require("jojo")
+print("hello")
