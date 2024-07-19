@@ -1,2 +1,1 @@
 require("jojo")
-print("hello")
