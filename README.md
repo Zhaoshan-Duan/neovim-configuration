@@ -13,3 +13,8 @@ Theme: catppuccin
 - `<C-p>` for git file search
 - `<leader>ps` for live project grep
 
+## [harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
+Quick file navigation
+- `<leader>a` add current file to harpoon
+- `<C-e>` toggle quick menu
+- `<C-h>`, `<C-t>`, `<C-n>`, `<C-s>` select files in the harpoon list
