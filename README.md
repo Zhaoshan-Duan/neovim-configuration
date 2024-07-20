@@ -26,4 +26,6 @@ Browse file system
 ## [lualine](https://github.com/nvim-lualine/lualine.nvim)
 Neovim statusline
 
-
+## [fugitive](https://github.com/tpope/vim-fugitive)
+Vim plugin for Git
+- `<leader>gs'
