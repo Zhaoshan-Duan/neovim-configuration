@@ -26,3 +26,4 @@ Browse file system
 ## [lualine](https://github.com/nvim-lualine/lualine.nvim)
 Neovim statusline
 
+
