@@ -18,3 +18,7 @@ Quick file navigation
 - `<leader>a` add current file to harpoon
 - `<C-e>` toggle quick menu
 - `<C-h>`, `<C-t>`, `<C-n>`, `<C-s>` select files in the harpoon list
+
+## [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
+Browse file system
+- `<leader>n`
