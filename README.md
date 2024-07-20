@@ -22,3 +22,7 @@ Quick file navigation
 ## [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
 Browse file system
 - `<leader>n`
+
+## [lualine](https://github.com/nvim-lualine/lualine.nvim)
+Neovim statusline
+
