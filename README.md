@@ -34,10 +34,18 @@ Vim plugin for Git
 ## LSP
 
 > [mason.vim](williamboman/mason.nvim) manages and installs LSPs  
+
 > [mason-lspconfig](williamboman/mason-lspconfig.nvim) briges gap between `mason.nvim` and `lspconfig`; ensures language servers are installed before running
+
 > [nvim-lspconfig](williamboman/mason-lspconfig.nvim) connects neovim to langauge servers: set up key binding, and communication between neovim and LSPs
 
 - `gd` go to function definition
 - `K` hover
 - `<leader>ca` Code Action
+- `<C-x> <C-o>` code completion
 
+## [none-ls](https://github.com/nvimtools/none-ls.nvim)
+Linting and formatting
+
+Support language: `lua`, `python`
+- `<leader>gf` for formatting

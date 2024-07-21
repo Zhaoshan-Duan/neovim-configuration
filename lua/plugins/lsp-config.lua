@@ -41,8 +41,8 @@ return {
           --  local opts = {buffer = bufner, remap = false}
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
-            vim.keymap.set('n', '[d', vim.diagnostic.goto_next, {})
-            vim.keymap.set('n', ']d', vim.diagnostic.goto_prev, {})
+--            vim.keymap.set('n', '[d', vim.diagnostic.goto_next, {})
+--            vim.keymap.set('n', ']d', vim.diagnostic.goto_prev, {})
             vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
         end
     }
