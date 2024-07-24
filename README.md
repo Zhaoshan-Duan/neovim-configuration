@@ -28,6 +28,8 @@ Theme: catppuccin
 >Vim plugin for Git
 - `<leader>gs' git status
 
+## [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
+>signs for git difference
 
 ## LSP
 
