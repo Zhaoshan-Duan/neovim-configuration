@@ -39,10 +39,11 @@ Theme: catppuccin
 
 > [nvim-lspconfig](williamboman/mason-lspconfig.nvim) connects neovim to langauge servers: set up key binding, and communication between neovim and LSPs
 
+
+LSP keybindings
 - `gd` go to function definition
 - `K` hover
 - `<leader>ca` Code Action
-- `<C-x> <C-o>` code completion
 
 ## [none-ls](https://github.com/nvimtools/none-ls.nvim)
 >Linting and formatting
@@ -61,8 +62,9 @@ Theme: catppuccin
 
 >[cmp-nvim-lsp](https://github.com/sar/cmp-lsp.nvim) completion source for neovim LSP
 
-- `<C-b>` scroll-docs
-- `<C-f>` scroll-docs
-- `<C-Space>` complete
-- `<C-e>` abort
-- `<CR>` confirm
+Completion keybindings
+- `<C-p> <C-n>` for selecting previous and next in completion list
+- `<C-Space>` for completion
+- `<CR>` to confirm
+- `<C-e>` for abort
+- `<C-b> <C-f>` to scroll docs 
