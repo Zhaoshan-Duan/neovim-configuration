@@ -13,7 +13,7 @@ return {
             local mason_lspconfig = require("mason-lspconfig")
             local lspconfig = require("lspconfig")
             local cmp_nvim_lsp = require("cmp_nvim_lsp")
-            local none_ls = require("null-ls")
+            local null_ls = require("null-ls")
             local mason_null_ls = require("mason-null-ls")
 
             -- setup mason
@@ -40,16 +40,16 @@ return {
                 automatic_installation = true,
             })
 
-            none_ls.setup({
+            null_ls.setup({
                 sources = {
                     -- lua
-                    none_ls.builtins.formatting.stylua,
+                    null_ls.builtins.formatting.stylua,
                     -- python
-                    none_ls.builtins.formatting.black,
-                    none_ls.builtins.formatting.isort,
+                    null_ls.builtins.formatting.black,
+                    null_ls.builtins.formatting.isort,
                     -- javascript/typescript
-                    none_ls.builtins.formatting.prettier,
-                    none_ls.builtins.diagnostics.eslint_d,
+                    null_ls.builtins.formatting.prettier,
+                    null_ls.builtins.diagnostics.eslint_d,
                 },
             })
 
