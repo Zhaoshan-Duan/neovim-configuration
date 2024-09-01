@@ -7,7 +7,11 @@ return {
             ensure_installed = {
                 "lua",
                 "python",
-                "javascript"
+                "javascript",
+                "typescript",
+                "vim",
+                "vimdoc",
+                "markdown",
             },
             sync_install = false,
             auto_install = true,

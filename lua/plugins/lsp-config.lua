@@ -91,8 +91,11 @@ return {
             --global keybindings
             vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "Go to definition" })
             vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Hover information" })
-            vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, { desc = "Code action" })
+            vim.keymap.set("n", "<leader>vws>", vim.lsp.buf.workspace_symbol, {desc = "workspace symbol"})
+            vim.keymap.set( "n", "<leader>vd", vim.lsp.buf.code_action, { desc = "Code action" })
             vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, { desc = "Format file" })
+
+            vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "Code action" })
 
             vim.lsp.set_log_level("debug")
         end,

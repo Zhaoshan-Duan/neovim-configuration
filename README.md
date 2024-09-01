@@ -79,7 +79,7 @@ Completion keybindings
 
 - `<C-p> <C-n>` for selecting previous and next in completion list
 - `<C-Space>` for completion
-- `<CR>` to confirm
+- `<C-y>` to confirm
 - `<C-e>` for abort
 - `<C-b> <C-f>` to scroll docs
 
